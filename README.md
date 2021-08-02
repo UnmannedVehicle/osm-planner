@@ -12,3 +12,9 @@ rosrun turtlesim turtle_teleop_key
 
 ## Parameter initialization
 ### Select Map
+Change map parameter in lanuch file
+```
+<arg name="map" default="map.osm"/>
+``` 
+### Determine the origin of map coordinates
+
