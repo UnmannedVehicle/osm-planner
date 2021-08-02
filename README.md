@@ -16,7 +16,7 @@ And set TF conversion in launch.
 ```
 <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="690975 3119274 0 -3.1 0 0 map local_map 100"/>
 ```
-## test
+## Test
 First,run planner_node and rviz.
 ```
 roslaunch osm_planner planner_node.launch 
